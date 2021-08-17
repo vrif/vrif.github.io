@@ -8,7 +8,6 @@
       <h1>Jupyter Notebooks</h1>
     </b-container>
     <PortfolioCard :portfolioData="notebooksData" />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
   </div>
 </template>
 
