@@ -12,13 +12,13 @@ export const experience = [
             title: "Application Enhancement - 2",
             description: "Worked with Vue + Node to expand features for an application. Expanded form functionalities, and re-aligning routines on the backend to increase efficiency.",
             tags: ["Software Engineering"],
-            tools: "Vue, Node Express, RESTful API, SQL HTML, CSS, Bootstrap, *nix",
+            tools: "Vue, Node, Express, RESTful API, MSSQL HTML, CSS, Bootstrap",
           },
           {
             title: "Application Enhancement - 1",
             description: "Worked with Vue + Django to expand features for an application. This involved adding new form functionalities for the frontend and adding new API endpoints to the backend.",
             tags: ["Software Engineering"],
-            tools: "Vue, Django, RESTful API, HTML, CSS, Bootstrap, *nix",
+            tools: "Vue, Django, RESTful API, HTML, CSS, Bootstrap",
           },
           {
             title: "BCBC - Data Pipeline",
@@ -41,15 +41,15 @@ export const experience = [
           },
           {
             title: "Exploratory Project",
-            description: "Manipulated and explored data in Python and SQL",
+            description: "Manipulated and explored data in Python and MSSQL",
             tags: ["Data Science"],
-            tools: "Python, SQL",
+            tools: "Python, MSSQL",
           },
           {
             title: "Data Pipeline",
             description: "Managed the scripts to retrieve, clean, validate and transform data for a data pipeline. Downstream, the data was used to power dashboards and to generate reports.",
             tags: ["Data Engineering"],
-            tools: "Python, SQL, *nix",
+            tools: "Python, MSSQL, *nix",
           },
 
         ]
