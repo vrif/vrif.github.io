@@ -1,7 +1,7 @@
 const portfolio = [
   {
     name: "Portfolio Website",
-    topics: "Create a website using a frontend framework that highlights the projects located on my GitHub and resume.",
+    topics: "Transform my portfolio to a website using a frontend framework that displays the projects located on my GitHub and an extended version of my resume.",
     type: <const> "Project",
     tags: ["Software Engineering"],
     tools: "Vue, TypeScript, JavaScript, HTML, CSS, Bootstrap",
