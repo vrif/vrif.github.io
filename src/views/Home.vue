@@ -1,8 +1,12 @@
 <template>
   <div class="home">
-    <h1>Projects</h1>
+    <b-container>
+      <h1>Projects</h1>
+    </b-container>
     <PortfolioCard :portfolioData="projectsData" />
-    <h1>Jupyter Notebooks</h1>
+    <b-container>
+      <h1>Jupyter Notebooks</h1>
+    </b-container>
     <PortfolioCard :portfolioData="notebooksData" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/> -->
   </div>
@@ -32,3 +36,8 @@
     }
   }
 </script>
+<style lang="scss">
+  .home {
+    text-align: center
+  }
+</style>

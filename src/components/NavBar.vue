@@ -13,8 +13,8 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item to="/">Home</b-nav-item>
-            <b-nav-item to="/tech">Tech</b-nav-item>
             <b-nav-item to="/resume">Resume</b-nav-item>
+            <b-nav-item to="/tech">Tech</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item href="https://github.com/vrif/"><b-icon icon="github" class="icon-right" /></b-nav-item>
