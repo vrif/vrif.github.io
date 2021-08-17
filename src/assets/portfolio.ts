@@ -1,7 +1,7 @@
 const portfolio = [
   {
     name: "Portfolio Website",
-    topics: "Transform my portfolio to a website using a frontend framework that displays the projects located on my GitHub and an extended version of my resume.",
+    topics: "Transforming a static portfolio to a website utilizing  a frontend framework that displays the projects located on my GitHub and an extended version of my resume.",
     type: <const> "Project",
     tags: ["Software Engineering"],
     tools: "Vue, TypeScript, JavaScript, HTML, CSS, Bootstrap",
@@ -34,7 +34,7 @@ const portfolio = [
     topics: "Time Series Forecasting",
     type: <const> "Notebook",
     tags: ["Data Science"],
-    tools: "fbprophet, matplotlib, plotly",
+    tools: "Prophet, Matplotlib, Plotly",
     links: [
       {
         name: "Static Version",
@@ -51,7 +51,7 @@ const portfolio = [
     topics: "Creating a Plotly Slider",
     type: <const> "Notebook",
     tags: ["Data Science"],
-    tools: "plotly",
+    tools: "Plotly",
     links: [
       {
         name: "Interactive Version",
@@ -64,7 +64,7 @@ const portfolio = [
     topics: "Using TensorFlow 1.0, 2.0, Keras and PyTorch to calculate Linear Regression",
     type: <const> "Notebook",
     tags: ["Data Science"],
-    tools: "tensorflow, keras, torch, sklearn, statsmodel",
+    tools: "Tensorflow, Keras, Torch, Scikit-Learn, Statsmodel",
     links: [
       {
         name: "Static Version",
@@ -77,7 +77,7 @@ const portfolio = [
     topics: "Using TensorFlow 1.0, 2.0, Keras and PyTorch to calculate Logistic Regression",
     type: <const> "Notebook",
     tags: ["Data Science"],
-    tools: "tensorflow, keras, torch, sklearn, statsmodel",
+    tools: "Tensorflow, Keras, Torch, Scikit-Learn, Statsmodel",
     links: [
       {
         name: "Static Version",
