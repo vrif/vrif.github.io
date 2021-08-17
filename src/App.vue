@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <transition name="fade">
-      <router-view/>
-    </transition>
+    <router-view/>
   </div>
 </template>
 <script lang="ts">
@@ -26,11 +24,5 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: left;
     color: #2c3e50;
-  }
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.5s;
-  }
-  .fade-enter, .fade-leave-to {
-    opacity: 0;
   }
 </style>
