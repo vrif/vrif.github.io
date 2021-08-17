@@ -1,5 +1,5 @@
 <template>
-  <b-container class="portfolio-container">
+  <div class="portfolio-container">
     <b-card 
       v-for="(entrys, index) in portfolioData" :key="index"
       class="portfolio-card"
@@ -46,7 +46,7 @@
     >
     None...
     </h5>
-  </b-container>
+  </div>
 </template>
 <script lang="ts">
   import { Component, Prop, Vue } from 'vue-property-decorator'
@@ -81,7 +81,7 @@
     width: 30rem;
     height: auto;
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     &-blank {
       @extend .portfolio-card;
       border: none;

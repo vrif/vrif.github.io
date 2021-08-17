@@ -1,13 +1,16 @@
 <template>
   <div class="home">
     <b-container>
-      <h1>Projects</h1>
+      <h1 class="title">Welcome To My Portfolio!</h1>
+      <div class="portfolio-section">
+        <h3>Projects</h3>
+        <PortfolioCard :portfolioData="projectsData" />
+      </div>
+      <div class="portfolio-section">
+        <h3>Jupyter Notebooks</h3>
+        <PortfolioCard :portfolioData="notebooksData" />
+      </div>
     </b-container>
-    <PortfolioCard :portfolioData="projectsData" />
-    <b-container>
-      <h1>Jupyter Notebooks</h1>
-    </b-container>
-    <PortfolioCard :portfolioData="notebooksData" />
   </div>
 </template>
 
@@ -36,7 +39,14 @@
   }
 </script>
 <style lang="scss">
-  .home {
+  .title {
     text-align: center
+  }
+  .home {
+    text-align: left
+  }
+  .portfolio-section {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e3e3e3;
   }
 </style>
