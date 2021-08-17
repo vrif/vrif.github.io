@@ -22,6 +22,11 @@ const routes: Array<RouteConfig> = [
     path: '/resume',
     name: 'Resume',
     component: () => import(/* webpackChunkName: "about" */ '../views/Resume.vue')
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
   }
 ]
 
