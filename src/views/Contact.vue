@@ -3,7 +3,7 @@
     <b-container>
       <h1>Contact</h1>
       <h2>
-        You may reach me through InMail on <b-link href="https://www.linkedin.com/in/harryyau/"><b-icon icon="linkedin" /></b-link>
+        You may reach me on <b-link href="https://www.linkedin.com/in/harryyau/"><b-icon icon="linkedin" /></b-link>
       </h2>
     </b-container>
   </div>

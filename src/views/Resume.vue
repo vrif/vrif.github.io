@@ -3,10 +3,10 @@
     <b-container>
       <h1 class="title">Resume</h1>
       <div class="resume-section">
-        <h2>About</h2>
-        <div class="ml-1 mb-4">
-          A Software Engineer / Data Scientist with a customer centric approach.
-          Experienced with implementing products and application enhancements from idea to execution for software development projects.
+        <h2>Harry Yau</h2>
+        <div class="mb-4">
+          <p>Software Engineer / Data Scientist</p>
+          <p class="text-muted">Vancouver, BC, Canada</p>
         </div>
       </div>
       <div class="resume-section">
@@ -52,9 +52,6 @@
   .resume-section {
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #e3e3e3;
-    &:last-child {
-      margin-bottom: 0rem;
-    }
   }
   h2 {
     margin-bottom: 1rem
