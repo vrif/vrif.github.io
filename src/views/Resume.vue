@@ -4,10 +4,24 @@
       <h1 class="title">Resume</h1>
       <div class="resume-section">
         <h2>Harry Yau</h2>
-        <div class="mb-4">
-          <p>Software Engineer / Data Scientist</p>
+        <ResumeText>
+          <p class="none">Software Engineer / Data Scientist</p>
           <p class="text-muted">Vancouver, BC, Canada</p>
-        </div>
+        </ResumeText>
+      </div>
+      <div class="resume-section">
+        <h2>About</h2>
+        <ResumeText>
+          <p>
+            A Software Engineer / Data Scientist with a customer centric approach.
+            Experienced with implementing product and application enhancements from idea to execution for software development projects.
+            Have worked in different careers and industries over the years.
+          </p>
+          <p>
+            An advanced user of Vue from working on multiple client engagements that involved application functionality enhancements. 
+            Started working with front-end frameworks by converting a a proof of concept application from JQuery to React. 
+          </p>
+        </ResumeText>
       </div>
       <div class="resume-section">
         <h2>Experience</h2>
@@ -31,6 +45,7 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
   import ResumeEntity from '@/components/resume/ResumeEntity.vue'
+  import ResumeText from '@/components/resume/ResumeText.vue'
 
   import { Entity } from '@/fixtures/resume'
   import { experience, education } from '@/assets/resume'
@@ -38,6 +53,7 @@
   @Component({
     components: {
       ResumeEntity,
+      ResumeText,
     }
   })
   export default class Resume extends Vue{
@@ -45,7 +61,7 @@
     education: Entity[] = education
   }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
   .title {
     text-align: center;
   }
