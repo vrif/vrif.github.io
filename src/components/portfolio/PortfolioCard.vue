@@ -69,7 +69,7 @@
     }
   }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
   .portfolio-container {
     display: flex;
     flex-wrap: wrap;

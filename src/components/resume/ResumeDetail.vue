@@ -27,7 +27,7 @@
     private projectDetails!: Detail
   }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
   p.details {
     font-size: 0.875rem;
   }
