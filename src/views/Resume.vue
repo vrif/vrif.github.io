@@ -39,6 +39,14 @@
             :entityDetails="institution" 
           />
       </div>
+      <div class="resume-section">
+        <h2>Part Time Courses</h2>
+        <ResumeEntity
+          v-for="(ptCourse, index) in partTimeCourses"
+          :key="`part-time-courses-${index}`"
+          :entityDetails="ptCourse" 
+        />
+      </div>
     </b-container>
   </div>
 </template>
@@ -48,7 +56,7 @@
   import ResumeText from '@/components/resume/ResumeText.vue'
 
   import { Entity } from '@/fixtures/resume'
-  import { experience, education } from '@/assets/resume'
+  import { experience, education, partTimeCourses } from '@/assets/resume'
 
   @Component({
     components: {
@@ -59,6 +67,7 @@
   export default class Resume extends Vue{
     experience: Entity[] = experience
     education: Entity[] = education
+    partTimeCourses: Entity[] = partTimeCourses
   }
 </script>
 <style lang="scss">

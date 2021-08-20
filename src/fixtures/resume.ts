@@ -1,14 +1,17 @@
 export interface Entity {
-  name: string;
-  position: Position[];
+  name?: string;
+  summary?: Summary[];
 }
 
-export interface Position {
+export interface Summary {
   title: string;
+  institution?: string;
   duration: string;
   location?: string;
   description?: string[];
+  format?: "list" | "paragraph";
   details?: Detail[];
+  url?: string;
 }
 
 export interface Detail {

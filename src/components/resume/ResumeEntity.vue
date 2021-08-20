@@ -1,22 +1,24 @@
 <template>
   <div class="ml-1 mb-4">
-    <h4><span class="font-weight-bold">{{ entityDetails.name }}</span></h4>
-    <ResumePosition 
-      v-for="(position, index) in entityDetails.position"
-      :key="`position-${index}`"
-      :positionDetails="position" 
+    <h4 v-if="entityDetails.name">
+      <span class="font-weight-bold">{{ entityDetails.name }}</span>
+    </h4>
+    <ResumeSummary 
+      v-for="(summary, index) in entityDetails.summary"
+      :key="`summary-${index}`"
+      :summaryDetails="summary" 
     />
   </div>
   </template>
 <script lang="ts">
   import { Component, Prop, Vue } from 'vue-property-decorator'
-  import ResumePosition from '@/components/resume/ResumePosition.vue'
+  import ResumeSummary from '@/components/resume/ResumeSummary.vue'
 
   import { Entity } from '@/fixtures/resume'
 
   @Component({
     components: {
-      ResumePosition,
+      ResumeSummary,
     }
   })
 

@@ -1,12 +1,13 @@
 export const experience = [
   {
     name: "KPMG Canada",
-    position: [
+    summary: [
       {
         title: "Software Engineer / Data Scientist",
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: ["Implemented products and application enhancements from idea to execution for software development projects.", "Managed client expectations by following up and providing progress for projects."],
+        format: <const> "list",
         details: [
           {
             title: "Application Enhancement - 2",
@@ -58,40 +59,43 @@ export const experience = [
   },
   {
     name: "Metrie",
-    position: [
+    summary: [
       {
         title: "Accounts Payable Clerk",
         duration: "Oct 2017 - Jun 2019",
         location: "Vancouver, BC, Canada",
         description: ["Reduced invoice processing time by 75%, by taking the initiative to call vendors in support of transition to a digital based invoice capture system.", "Utilized advanced Excel functions to reconcile statements with data from SAP."],
+        format: <const> "list",
       }
     ]
   },
   {
     name: "CanWel Building Materials",
-    position: [
+    summary: [
       {
         title: "Accounts Payable Clerk",
         duration: "Sep 2015 - Apr 2017",
         location: "Vancouver, BC, Canada",
         description: ["Improved invoice verification processes by create a script in R to catch discrepancies between entered and referenced freight information from JD Edwards EnterpriseOne.", "Applied data visualization techniques in R to analyze cost savings in an ad hoc contract proposal project for management."],
+        format: <const> "list",
       }
     ]
   },
   {
     name: "ScotiaMcLeod",
-    position: [
+    summary: [
       {
         title: "Accounts Payable Clerk",
         duration: "Oct 2014 - Apr 2015",
         location: "Vancouver, BC, Canada",
         description: ["Improved the accuracy of calculating monthly/year-to-date returns by creating a new Excel template to replace the existing one.", "Shortened the time span for preparing an asset allocation report by utilizing Excel keyboard shortcuts for an existing Excel template."],
+        format: <const> "list",
       }
     ]
   },
   {
     name: "Hong Kong Observatory",
-    position: [
+    summary: [
       {
         title: "Summer Intern",
         duration: "Jun 2012 - Aug 2012",
@@ -109,7 +113,7 @@ export const experience = [
   },
   {
     name: "Environment Canada",
-    position: [
+    summary: [
       {
         title: "Data Analyst",
         duration: "Jan 2011 - Jun 2012",
@@ -130,7 +134,7 @@ export const experience = [
 export const education = [
   {
     name: "BrainStation",
-    position: [
+    summary: [
       {
         title: "Diploma, Data Science",
         duration: "2019 - 2019",
@@ -139,7 +143,7 @@ export const education = [
   },
   {
     name: "UBC Sauder School of Business",
-    position: [
+    summary: [
       {
         title: "Diploma in Accounting, Accounting",
         duration: "2015 - 2017",
@@ -148,7 +152,7 @@ export const education = [
   },
   {
     name: "UBC Sauder School of Business",
-    position: [
+    summary: [
       {
         title: "Master of Management, Business Management",
         duration: "2013 - 2014",
@@ -157,10 +161,49 @@ export const education = [
   },
   {
     name: "The University of British Columbia",
-    position: [
+    summary: [
       {
         title: "Bachelor of Science (BSc), Atmospheric Science",
         duration: "2008 - 2013",
+      }
+    ]
+  }
+]
+
+export const partTimeCourses = [
+  {
+    summary: [
+      {
+      title: "C++ Application Development 1 - COMP 2617",
+      institution: "BCIT",
+      duration: "Fall 2018",
+      description: ["Introduction course to C++."],
+      format: <const> "paragraph",
+      url: "https://www.bcit.ca/outlines/20183034428",
+      }
+    ]
+  },
+  {
+    summary: [
+      {
+      title: "Introduction to Software Development 2 - COMP 1451",
+      institution: "BCIT",
+      duration: "Spring/Summer 2018",
+      description: ["Introduction to object-oriented programming concepts part 2 in Java."],
+      format: <const> "paragraph",
+      url: "https://www.bcit.ca/outlines/20182063978/",
+      }
+    ]
+  },
+  {
+    summary: [
+      {
+      title: "Introduction to Software Development 1 - COMP 1409",
+      institution: "BCIT",
+      duration: "Winter 2018",
+      description: ["Introduction to object-oriented programming concepts part 1."],
+      format: <const> "paragraph",
+      url: "https://www.bcit.ca/outlines/20181082094/",
       }
     ]
   }
