@@ -12,14 +12,8 @@
       <div class="resume-section">
         <h2>About</h2>
         <ResumeText>
-          <p>
-            A Software Engineer / Data Scientist with a customer centric approach.
-            Experienced with implementing product and application enhancements from idea to execution for software development projects.
-            Have worked in different careers and industries over the years.
-          </p>
-          <p>
-            An advanced user of Vue from working on multiple client engagements that involved application functionality enhancements. 
-            Started working with front-end frameworks by converting a a proof of concept application from JQuery to React. 
+          <p v-for="(paragraph, index) in about" :key="index">
+            {{ paragraph.join(" ") }}
           </p>
         </ResumeText>
       </div>
@@ -56,7 +50,7 @@
   import ResumeText from '@/components/resume/ResumeText.vue'
 
   import { Entity } from '@/fixtures/resume'
-  import { experience, education, partTimeCourses } from '@/assets/resume'
+  import { experience, education, partTimeCourses, about } from '@/assets/resume'
 
   @Component({
     components: {
@@ -68,6 +62,7 @@
     experience: Entity[] = experience
     education: Entity[] = education
     partTimeCourses: Entity[] = partTimeCourses
+    about: string[][] = about
   }
 </script>
 <style lang="scss">
