@@ -1,3 +1,15 @@
+export const about = [
+  [
+    "A Software Engineer / Data Scientist with a customer centric approach.",
+    "Experienced with implementing product and application enhancements from idea to execution for software development projects.",
+    "Strong communication skills with stakeholders on communicating updates on project progression and for resolving issues.",
+  ],
+  [
+    "An advanced user of Vue from working on multiple client engagements that involved application functionality enhancements.",
+    "Started working with front-end frameworks by converting a proof of concept application from JQuery to React.",
+  ]
+]
+
 export const experience = [
   {
     name: "KPMG Canada",

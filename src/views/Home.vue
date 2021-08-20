@@ -4,17 +4,10 @@
       <h1 class="title">Welcome To Harry's Portfolio!</h1>
       <div class="portfolio-section pb-4">
         <h3>About</h3>
-        <p>
-          A Software Engineer / Data Scientist with a customer centric approach.
-          Experienced with implementing product and application enhancements from idea to execution for software development projects.
-          Have worked in different careers and industries over the years.
-        </p>
-        <p>
-          An advanced user of Vue from working on multiple client engagements that involved application functionality enhancements. 
-          Started working with front-end frameworks by converting a a proof of concept application from JQuery to React. 
+        <p v-for="(paragraph, index) in about" :key="index">
+          {{ paragraph.join(" ") }}
         </p>
       </div>
-
       <div class="portfolio-section">
         <h3>Projects</h3>
         <PortfolioCard :portfolioData="projectsData" />
@@ -33,6 +26,7 @@
 
   import portfolio from '@/assets/portfolio'
   import { Portfolio } from '@/fixtures/portfolio'
+  import { about } from '@/assets/resume'
 
   @Component({
     components: {
@@ -41,6 +35,7 @@
   })
   export default class Home extends Vue {
     portfolio: Portfolio[] = portfolio
+    about: string[][] = about
 
     public get projectsData(): Portfolio[] {
       return this.portfolio.filter( (el: Portfolio) => el.type === "Project")
