@@ -87,7 +87,9 @@
       border: none;
     }
     &:hover {
-      box-shadow: 0 0 10px 0 grey
+      box-shadow: 0 0 10px 0 grey;
+      transform: scale(1.01);
+      z-index: 50;
     }
   }
   .portfolio-card-body {

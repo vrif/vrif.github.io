@@ -12,7 +12,7 @@
         class="details ml-2 mb-1"
       >
         <span>URL: </span>
-        <b-link :href="projectDetails.url">Click Here</b-link>
+        <b-link :href="projectDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
       </p>
     </div>
   </div>
@@ -21,7 +21,11 @@
   import { Component, Prop, Vue } from 'vue-property-decorator'
   import { Detail } from '@/fixtures/resume'
 
-  @Component
+  import HelperMethods from '@/mixins/helper-methods'
+
+  @Component({
+    mixins: [HelperMethods]
+  })
   export default class ResumeDetail extends Vue{
     @Prop()
     private projectDetails!: Detail

@@ -18,6 +18,14 @@
         </ResumeText>
       </div>
       <div class="resume-section">
+        <h2>Skills</h2> 
+        <ResumeText>
+          <p v-for="(bulletPoint, index) in skills" :key="index" class="none">
+            {{bulletPoint}}
+          </p>
+        </ResumeText>
+      </div>
+      <div class="resume-section">
         <h2>Experience</h2>
         <ResumeEntity
           v-for="(company, index) in experience"
@@ -50,7 +58,7 @@
   import ResumeText from '@/components/resume/ResumeText.vue'
 
   import { Entity } from '@/fixtures/resume'
-  import { experience, education, partTimeCourses, about } from '@/assets/resume'
+  import { experience, education, partTimeCourses, about, skills } from '@/assets/resume'
 
   @Component({
     components: {
@@ -63,6 +71,7 @@
     education: Entity[] = education
     partTimeCourses: Entity[] = partTimeCourses
     about: string[][] = about
+    skills: string[] = skills
   }
 </script>
 <style lang="scss">

@@ -10,6 +10,15 @@ export const about = [
   ]
 ]
 
+export const skills = [
+  "Programming Language: JavaScript, TypeScript, Python",
+  "Web: HTML, CSS",
+  "Front-end Framework: Vue, React",
+  "Back-end Framework: Django + DRF, Node Express, Flask",
+  "Database: MSSQL",
+  "Version Control: Git",
+]
+
 export const experience = [
   {
     name: "KPMG Canada",
@@ -31,7 +40,7 @@ export const experience = [
             title: "Application Enhancement - 1",
             description: "Worked with Vue + Django to expand features for an application. This involved adding new form functionalities for the frontend and adding new API endpoints to the backend.",
             tags: ["Software Engineering"],
-            tools: "Vue, Django, RESTful API, HTML, CSS, Bootstrap",
+            tools: "Vue, Django, RESTful API, TypeScript, HTML, CSS, Bootstrap",
           },
           {
             title: "BCBC - Data Pipeline",
