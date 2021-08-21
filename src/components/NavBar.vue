@@ -18,8 +18,8 @@
             <b-nav-item to="/contact">Contact</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item href="https://github.com/vrif/"><b-icon icon="github" class="icon-right" /></b-nav-item>
-            <b-nav-item href="https://www.linkedin.com/in/harryyau/"><b-icon icon="linkedin" class="icon-right" /></b-nav-item>
+            <b-nav-item href="https://github.com/vrif/" @click.stop.prevent="newTab"><b-icon icon="github" class="icon-right" /></b-nav-item>
+            <b-nav-item href="https://www.linkedin.com/in/harryyau/" @click.stop.prevent="newTab"><b-icon icon="linkedin" class="icon-right" /></b-nav-item>
           </b-navbar-nav>
         </b-collapse>
 
@@ -28,9 +28,12 @@
   </div>
 </template>
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+  import { Component, Vue } from 'vue-property-decorator'
+  import HelperMethods from '@/mixins/helper-methods'
 
-@Component
+  @Component({
+    mixins: [HelperMethods]
+  })
   export default class NavBar extends Vue {}
 </script>
 <style lang="scss">

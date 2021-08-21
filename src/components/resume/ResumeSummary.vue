@@ -30,7 +30,7 @@
         v-if="summaryDetails.url" 
         class="ml-4 mb-1"
       >
-        <span>URL: </span><b-link :href="summaryDetails.url">Click Here</b-link>
+        <span>URL: </span><b-link :href="summaryDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
       </p>
 
     </div>
@@ -50,13 +50,16 @@
 <script lang="ts">
   import { Component, Prop, Vue } from 'vue-property-decorator'
   import ResumeDetail from '@/components/resume/ResumeDetail.vue'
-
+  
   import { Summary } from '@/fixtures/resume'
+
+  import HelperMethods from '@/mixins/helper-methods'
 
   @Component({
     components: {
       ResumeDetail,
-    }
+    },
+    mixins: [HelperMethods]
   })
   export default class ResumeSummary extends Vue{
     @Prop()
