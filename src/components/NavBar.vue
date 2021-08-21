@@ -64,4 +64,11 @@
     width: 2rem;
     height: 2rem;
   }
+  .navbar-toggler {
+    transition: transform 0.2s ease-out;
+    &:hover {
+      transform: translateY(2px);
+      transition: transform 0.1s;
+    }
+  }
 </style>
