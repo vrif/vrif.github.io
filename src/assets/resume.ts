@@ -1,12 +1,12 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with a customer centric approach.",
-    "Experienced with implementing product and application enhancements from idea to execution for software development projects.",
-    "Strong communication skills with stakeholders on communicating updates on project progression and for resolving issues.",
+    "A Software Engineer / Data Scientist with a customer centric approach that has strong communication skills.",
+    "Experienced with implementing product and application enhancements from idea to execution.",
+    "Have worked in different industries ranging from government, financial, forestry and consulting.",
   ],
   [
-    "An advanced user of Vue from working on multiple client engagements that involved application functionality enhancements.",
-    "Started working with front-end frameworks by converting a proof of concept application from JQuery to React.",
+    "A proficient user of Vue from working on multiple client engagements that involved application functionality enhancements.",
+    "Also familiar with React due to converting a proof of concept application from JQuery.",
   ]
 ]
 
@@ -14,7 +14,7 @@ export const skills = [
   "Programming Language: JavaScript, TypeScript, Python",
   "Web: HTML, CSS",
   "Front-end Framework: Vue, React",
-  "Back-end Framework: Django + DRF, Node Express, Flask",
+  "Back-end Framework: Django + DRF, Node/Express, Flask",
   "Database: MSSQL",
   "Version Control: Git",
 ]
@@ -27,49 +27,65 @@ export const experience = [
         title: "Software Engineer / Data Scientist",
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
-        description: ["Implemented products and application enhancements from idea to execution for software development projects.", "Managed client expectations by following up and providing progress for projects."],
+        description: [
+            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which allowed me to be extended on a project from 5 to 7 months.", 
+            "Managed client expectations by following up and providing progress on projects.",
+            "Exceeded expectations of clients on the quality of the work that were delivered to production."
+          ],
         format: <const> "list",
         details: [
           {
             title: "Application Enhancement - 2",
-            description: "Worked with Vue + Node to expand features for an application. Expanded form functionalities, and re-aligning routines on the backend to increase efficiency.",
+            description: [
+                "Upgraded front-end input functionalities in Vue according to client specifications.", 
+                "Converted and streamlined routines with the Node/Express back-end to enable re-usable and scalable in the future."
+              ],
             tags: ["Software Engineering"],
             tools: "Vue, Node, Express, RESTful API, MSSQL HTML, CSS, Bootstrap",
           },
           {
             title: "Application Enhancement - 1",
-            description: "Worked with Vue + Django to expand features for an application. This involved adding new form functionalities for the frontend and adding new API endpoints to the backend.",
+            description: [
+                "Expanded front-end functionalities to a complex application in Vue and created new API endpoints to integrate with the Django back-end.", 
+                "Designed new components and routines that followed the same style as the original code to ensure consistency and knowledge transferability of the codebase."
+              ],
             tags: ["Software Engineering"],
             tools: "Vue, Django, RESTful API, TypeScript, HTML, CSS, Bootstrap",
           },
           {
             title: "BCBC - Data Pipeline",
-            description: "Assisted with the initial stage of a data pipeline project by creating a framework to retrieve and gather data from a variety of sources.",
+            description: ["Assisted with the initial stage of a data pipeline project by creating a framework to retrieve and gather data from a variety of sources."],
             tags: ["Data Engineering"],
             tools: "Python",
             url: "https://bcbc.com/dashboard",
           },
           {
             title: "Proof of Concept Application Upgrade",
-            description: "Upgraded the frontend of a proof of concept application from JQuery to React.",
+            description: ["Upgraded the frontend of a proof of concept application from JQuery to React."],
             tags: ["Software Engineering"],
             tools: "React, Flask, Python, RESTful API, HTML, CSS, Bootstrap",
           },
           {
             title: "Proof of Concept Application",
-            description: "Created a proof of concept application that displayed results generated from a model.",
+            description: [
+                "Developed a proof of concept application that displayed results generated from a model.", 
+                "Exceeded the expectations of the client during the demo call."
+              ],
             tags: ["Software Engineering"],
             tools: "JQuery, Flask, Python, HTML, CSS",
           },
           {
             title: "Exploratory Project",
-            description: "Manipulated and explored data in Python and MSSQL",
+            description: ["Manipulated and explored data in Python and MSSQL"],
             tags: ["Data Science"],
             tools: "Python, MSSQL",
           },
           {
             title: "Data Pipeline",
-            description: "Managed the scripts to retrieve, clean, validate and transform data for a data pipeline. Downstream, the data was used to power dashboards and to generate reports.",
+            description: [
+                "Managed the scripts to retrieve, clean, validate and transform data for a data pipeline.", 
+                "Downstream, the data was used to power dashboards and to generate reports."
+              ],
             tags: ["Data Engineering"],
             tools: "Python, MSSQL, *nix",
           },
@@ -85,19 +101,27 @@ export const experience = [
         title: "Accounts Payable Clerk",
         duration: "Oct 2017 - Jun 2019",
         location: "Vancouver, BC, Canada",
-        description: ["Reduced invoice processing time by 75%, by taking the initiative to call vendors in support of transition to a digital based invoice capture system.", "Utilized advanced Excel functions to reconcile statements with data from SAP."],
+        description: [
+            "Reduced invoice processing time by 75%, by taking the initiative to call vendors in support of transition to a digital based invoice capture system.", 
+            "Responded to vendor inquiries in a professional manner that reflects the company’s values.",
+            "Utilized advanced Excel functions to reconcile statements with data from SAP."
+          ],
         format: <const> "list",
       }
     ]
   },
   {
-    name: "CanWel Building Materials",
+    name: "Doman Building Materials (formerly CanWel Building Materials)",
     summary: [
       {
         title: "Accounts Payable Clerk",
         duration: "Sep 2015 - Apr 2017",
         location: "Vancouver, BC, Canada",
-        description: ["Improved invoice verification processes by create a script in R to catch discrepancies between entered and referenced freight information from JD Edwards EnterpriseOne.", "Applied data visualization techniques in R to analyze cost savings in an ad hoc contract proposal project for management."],
+        description: [
+            "Improved invoice verification processes by create a script in R to catch discrepancies between entered and referenced freight information from JD Edwards EnterpriseOne.", 
+            "Applied data visualization techniques in R to analyze cost savings in an ad hoc contract proposal project for management.",
+            "Utilized advanced Excel functions (vlookup, index, match) as the backup Pricing Analyst."
+          ],
         format: <const> "list",
       }
     ]
@@ -106,10 +130,13 @@ export const experience = [
     name: "ScotiaMcLeod",
     summary: [
       {
-        title: "Accounts Payable Clerk",
+        title: "Administrative Support Assistant",
         duration: "Oct 2014 - Apr 2015",
         location: "Vancouver, BC, Canada",
-        description: ["Improved the accuracy of calculating monthly/year-to-date returns by creating a new Excel template to replace the existing one.", "Shortened the time span for preparing an asset allocation report by utilizing Excel keyboard shortcuts for an existing Excel template."],
+        description: [
+            "Improved the accuracy of calculating monthly/year-to-date returns by creating a new Excel template to replace the existing one.", 
+            "Shortened the time span for preparing an asset allocation report by utilizing Excel keyboard shortcuts for an existing Excel template."
+          ],
         format: <const> "list",
       }
     ]
@@ -124,7 +151,10 @@ export const experience = [
         details: [
           {
             title: "Development of Variational Data Assimilation System for the Aviation Model",
-            description: "Investigated the effects of tuning parameters in a hi-resolution weather forecasting model for forecasting terrain-induced wind shear at the Hong Kong International Airport. A time reduction of 80% in the experimental process through the creation of an automation strategy for preparing experimental parameters through BASH.",
+            description: [
+              "Investigated the effects of tuning parameters in a hi-resolution weather forecasting model for forecasting terrain-induced wind shear at the Hong Kong International Airport.",
+              "A time reduction of 80% in the experimental process through the creation of an automation strategy for preparing experimental parameters through BASH."
+            ],
             tags: ["Software Engineering"],
             tools: "*nix, BASH",
           },
@@ -142,7 +172,11 @@ export const experience = [
         details: [
           {
             title: "The XM Tool Project",
-            description: "Developed R proficiency in data cleaning, modeling, and visualization from participating in a statistical air quality research project that compared results from contributing scientists.",
+            description: [
+              "Developed R proficiency in data cleaning, modeling, and visualization from participating in a statistical air quality research project that compared results from contributing scientists.",
+              "Verified training data by creating a routine in R to calculate, chart and verify the results for comparability purposes.",
+              "Created a script to decode a complicated data format to relieve a bottleneck in the project."
+            ],
             tags: ["Software Engineering", "Data Science"],
             tools: "R, *nix, BASH",
           },

@@ -16,7 +16,7 @@ export interface Summary {
 
 export interface Detail {
   title: string;
-  description: string;
+  description: string[];
   tags: string[];
   tools: string;
   url?: string;

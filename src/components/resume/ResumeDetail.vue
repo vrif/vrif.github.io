@@ -3,9 +3,14 @@
     <p class="mb-1">{{ projectDetails.title }}</p>
     
     <div class="detail-body">
-      <p class="details ml-2 mb-1">
-        {{ projectDetails.description }}
-      </p>
+      <!-- <p class="details ml-2 mb-1">
+        {{ projectDetails.description.join(" ") }}
+      </p> -->
+      <ul class="details">
+        <li v-for="(bulletPoint, index) in projectDetails.description" :key="index">
+          {{ bulletPoint }}
+        </li>
+      </ul>     
       <p class="details ml-2 mb-1"><span>Tools: </span>{{ projectDetails.tools }}</p>
       <p
         v-if="projectDetails.url" 
@@ -32,8 +37,13 @@
   }
 </script>
 <style lang="scss">
-  p.details {
+  .details {
     font-size: 0.875rem;
+  }
+  ul.details {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 1.5rem;
   }
   .detail-body {
     border-left: 2px solid #e3e3e3;
