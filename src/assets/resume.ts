@@ -1,8 +1,8 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with a customer centric approach that has strong communication skills.",
+    "A Software Engineer / Data Scientist with a customer centric approach that has strong communication skills and thrives in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
-    "Have worked in different industries ranging from government, financial, forestry and consulting.",
+    "Have worked in a diverse number of careers and industries such as government, financial and consulting",
   ],
   [
     "A proficient user of Vue from working on multiple client engagements that involved application functionality enhancements.",
@@ -29,7 +29,7 @@ export const experience = [
         location: "Vancouver, BC, Canada",
         description: [
             "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which allowed me to be extended on a project from 5 to 7 months.", 
-            "Managed client expectations by following up and providing progress on projects.",
+            "Managed expectations of stakeholders by providing regular updates on project progression.",
             "Exceeded expectations of clients on the quality of the work that were delivered to production."
           ],
         format: <const> "list",
@@ -37,8 +37,8 @@ export const experience = [
           {
             title: "Application Enhancement - 2",
             description: [
-                "Upgraded front-end input functionalities in Vue according to client specifications.", 
-                "Converted and streamlined routines with the Node/Express back-end to enable re-usable and scalable in the future."
+                "Upgraded frontend input functionalities in Vue according to client specifications.", 
+                "Converted and streamlined routines with the Node/Express backend to enable re-usable and scalable in the future."
               ],
             tags: ["Software Engineering"],
             tools: "Vue, Node, Express, RESTful API, MSSQL HTML, CSS, Bootstrap",
@@ -46,7 +46,7 @@ export const experience = [
           {
             title: "Application Enhancement - 1",
             description: [
-                "Expanded front-end functionalities to a complex application in Vue and created new API endpoints to integrate with the Django back-end.", 
+                "Expanded frontend functionalities to a complex application in Vue and created new API endpoints to integrate with the Django backend.", 
                 "Designed new components and routines that followed the same style as the original code to ensure consistency and knowledge transferability of the codebase."
               ],
             tags: ["Software Engineering"],
