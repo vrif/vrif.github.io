@@ -30,7 +30,6 @@ export const experience = [
         description: [
             "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which allowed me to be extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
-            "Exceeded expectations of clients on the quality of the work that were delivered to production."
           ],
         format: <const> "list",
         details: [
