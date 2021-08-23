@@ -5,8 +5,8 @@
   </div>
 </template>
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator'
-
+  import { Component, Vue, Watch } from 'vue-property-decorator'
+  import { RouteConfig } from 'vue-router'
   import NavBar from '@/components/NavBar.vue'
 
   @Component({
@@ -15,7 +15,12 @@
     }
   })
 
-  export default class App extends Vue{}
+  export default class App extends Vue{
+    @Watch("$route", { immediate: true })
+    public onRouteChange(to: RouteConfig): void {
+        document.title = to.meta && to.meta.title || "Harry's Portfolio"
+    }
+  }
 </script>
 <style lang="scss">
   #app {
