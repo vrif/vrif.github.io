@@ -4,7 +4,7 @@ const portfolio = [
     topics: "Transforming a static portfolio to a website utilizing  a frontend framework that displays the projects located on my GitHub and an extended version of my resume.",
     type: <const> "Project",
     tags: ["Software Engineering"],
-    tools: "Vue, TypeScript, JavaScript, HTML, CSS, Bootstrap",
+    tools: "Vue, JavaScript, TypeScript, HTML, CSS, Bootstrap",
     links: [{
       url: "https://github.com/vrif/vrif.github.io"
     }],

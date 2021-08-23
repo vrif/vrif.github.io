@@ -1,8 +1,8 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with a customer centric approach that has strong communication skills and thrives in unfamilar environments.",
+    "A Software Engineer / Data Scientist with strong communication skills and thrives in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
-    "Have worked in a diverse number of careers and industries such as consulting, finance and government.",
+    "Worked in a diverse number of careers and industries such as consulting, finance and government.",
   ],
   [
     "A proficient user of Vue from working on multiple client engagements that involved application functionality enhancements.",
@@ -28,7 +28,7 @@ export const experience = [
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: [
-            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which allowed me to be extended on a project from 5 to 7 months.", 
+            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects resulted in being extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
           ],
         format: <const> "list",
