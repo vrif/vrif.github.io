@@ -6,12 +6,19 @@ export interface Entity {
 export interface Summary {
   title: string;
   institution?: string;
-  duration: string;
+  duration?: string;
   location?: string;
   description?: string[];
   format?: "list" | "paragraph";
   details?: Detail[];
   url?: string;
+}
+
+export interface MOOCSummary extends Summary {
+  issued: string;
+  expiry?: string;
+  credentialId: string;
+  credentialUrl: string;
 }
 
 export interface Detail {

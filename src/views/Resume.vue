@@ -49,6 +49,14 @@
           :entityDetails="ptCourse" 
         />
       </div>
+      <div class="resume-section">
+        <h2>MOOC Courses</h2>
+        <ResumeEntity
+          v-for="(moocCourse, index) in moocCourses"
+          :key="`mooc-courses-${index}`"
+          :entityDetails="moocCourse" 
+        />
+      </div>
     </b-container>
   </div>
 </template>
@@ -58,7 +66,7 @@
   import ResumeText from '@/components/resume/ResumeText.vue'
 
   import { Entity } from '@/fixtures/resume'
-  import { experience, education, partTimeCourses, about, skills } from '@/assets/resume'
+  import { experience, education, partTimeCourses, about, skills, moocCourses } from '@/assets/resume'
 
   @Component({
     components: {
@@ -72,6 +80,7 @@
     partTimeCourses: Entity[] = partTimeCourses
     about: string[][] = about
     skills: string[] = skills
+    moocCourses: Entity[] = moocCourses
   }
 </script>
 <style lang="scss">
