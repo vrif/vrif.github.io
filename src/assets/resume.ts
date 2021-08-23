@@ -1,6 +1,6 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with strong communication skills and thrives in unfamilar environments.",
+    "A Software Engineer / Data Scientist with strong communication skills who thrives working in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
     "Worked in a diverse number of careers and industries such as consulting, finance and government.",
   ],
