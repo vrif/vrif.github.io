@@ -28,7 +28,7 @@ export const experience = [
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: [
-            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects resulted in being extended on a project from 5 to 7 months.", 
+            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group project, which resulted in being extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
           ],
         format: <const> "list",
