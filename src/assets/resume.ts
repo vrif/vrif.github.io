@@ -2,7 +2,7 @@ export const about = [
   [
     "A Software Engineer / Data Scientist with a customer centric approach that has strong communication skills and thrives in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
-    "Have worked in a diverse number of careers and industries such as government, financial and consulting",
+    "Have worked in a diverse number of careers and industries such as consulting, finance and government.",
   ],
   [
     "A proficient user of Vue from working on multiple client engagements that involved application functionality enhancements.",
@@ -228,36 +228,61 @@ export const partTimeCourses = [
   {
     summary: [
       {
-      title: "C++ Application Development 1 - COMP 2617",
-      institution: "BCIT",
-      duration: "Fall 2018",
-      description: ["Introduction course to C++."],
-      format: <const> "paragraph",
-      url: "https://www.bcit.ca/outlines/20183034428",
+        title: "C++ Application Development 1 - COMP 2617",
+        institution: "BCIT",
+        duration: "Fall 2018",
+        description: ["Introduction course to C++."],
+        format: <const> "paragraph",
+        url: "https://www.bcit.ca/outlines/20183034428",
       }
     ]
   },
   {
     summary: [
       {
-      title: "Introduction to Software Development 2 - COMP 1451",
-      institution: "BCIT",
-      duration: "Spring/Summer 2018",
-      description: ["Introduction to object-oriented programming concepts part 2 in Java."],
-      format: <const> "paragraph",
-      url: "https://www.bcit.ca/outlines/20182063978/",
+        title: "Introduction to Software Development 2 - COMP 1451",
+        institution: "BCIT",
+        duration: "Spring/Summer 2018",
+        description: ["Introduction to object-oriented programming concepts part 2 in Java."],
+        format: <const> "paragraph",
+        url: "https://www.bcit.ca/outlines/20182063978/",
       }
     ]
   },
   {
     summary: [
       {
-      title: "Introduction to Software Development 1 - COMP 1409",
-      institution: "BCIT",
-      duration: "Winter 2018",
-      description: ["Introduction to object-oriented programming concepts part 1."],
-      format: <const> "paragraph",
-      url: "https://www.bcit.ca/outlines/20181082094/",
+        title: "Introduction to Software Development 1 - COMP 1409",
+        institution: "BCIT",
+        duration: "Winter 2018",
+        description: ["Introduction to object-oriented programming concepts part 1."],
+        format: <const> "paragraph",
+        url: "https://www.bcit.ca/outlines/20181082094/",
+      }
+    ]
+  }
+]
+
+export const moocCourses = [
+  {
+    summary: [
+      {
+        title: "JavaScript: The Advanced Concepts (2021)",
+        institution: "Udemy",
+        issued: "Mar 2021",
+        credentialId: "UC-c49a6514-d32b-49cb-8594-09af08526ccf",
+        credentialUrl: "http://ude.my/UC-c49a6514-d32b-49cb-8594-09af08526ccf"
+      }
+    ]
+  },
+  {
+    summary: [
+      {
+        title: "Deep Learning Specialization",
+        institution: "Coursera",
+        issued: "Sep 2019",
+        credentialId: "M5DRJ58WCBZH",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/M5DRJ58WCBZH"
       }
     ]
   }

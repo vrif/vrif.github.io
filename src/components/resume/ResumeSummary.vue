@@ -5,8 +5,19 @@
       <p v-if="summaryDetails.institution">
         <span>{{ summaryDetails.institution }}</span>
       </p>
-      <p><span class="text-muted">{{ summaryDetails.duration }}</span></p>
+      <p v-if="summaryDetails.duration"><span class="text-muted">{{ summaryDetails.duration }}</span></p>
       <p><span v-if="summaryDetails.location" class="text-muted">{{ summaryDetails.location }}</span></p>
+
+      <!-- Mooc -->
+      <p v-if="summaryDetails.issued" class="text-muted">Issued {{ summaryDetails.issued}} &#183; 
+        <span v-if="summaryDetails.expiry"> Expires {{ summaryDetails.expiry}}</span>
+        <span v-else>No Expiration Date</span>
+      </p>
+      <p v-if="summaryDetails.credentialId"><span class="text-muted">Credential ID: {{summaryDetails.credentialId}}</span></p>
+      <p v-if="summaryDetails.credentialUrl">
+        <span class="text-muted">Credential Url: </span><b-link :href="summaryDetails.credentialUrl" @click.stop.prevent="newTab">Click Here</b-link>
+      </p>
+      <!-- -->
 
       <div v-if="summaryDetails.description">
         <div v-if="summaryDetails.format==='list' || !summaryDetails.format">
@@ -30,9 +41,8 @@
         v-if="summaryDetails.url" 
         class="ml-4 mb-1"
       >
-        <span>URL: </span><b-link :href="summaryDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
+        <span>Url: </span><b-link :href="summaryDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
       </p>
-
     </div>
     <div 
       v-if="summaryDetails.details"
@@ -51,7 +61,7 @@
   import { Component, Prop, Vue } from 'vue-property-decorator'
   import ResumeDetail from '@/components/resume/ResumeDetail.vue'
   
-  import { Summary } from '@/fixtures/resume'
+  import { Summary, MOOCSummary } from '@/fixtures/resume'
 
   import HelperMethods from '@/mixins/helper-methods'
 
@@ -63,7 +73,7 @@
   })
   export default class ResumeSummary extends Vue{
     @Prop()
-    private summaryDetails!: Summary
+    private summaryDetails!: Summary | MOOCSummary
   }
 </script>
 <style lang="scss">
