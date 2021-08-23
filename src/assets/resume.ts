@@ -34,16 +34,16 @@ export const experience = [
         format: <const> "list",
         details: [
           {
-            title: "Application Enhancement - 2",
+            title: "Application Enhancement - Project #2",
             description: [
                 "Upgraded frontend input functionalities in Vue according to client specifications.", 
-                "Converted and streamlined routines with the Node/Express backend to enable re-usable and scalable in the future."
+                "Converted and streamlined routines in the Node/Express backend to allow for re-usability and scalability in the future."
               ],
             tags: ["Software Engineering"],
             tools: "Vue, Node, Express, RESTful API, MSSQL HTML, CSS, Bootstrap",
           },
           {
-            title: "Application Enhancement - 1",
+            title: "Application Enhancement - Project #1",
             description: [
                 "Expanded frontend functionalities to a complex application in Vue and created new API endpoints to integrate with the Django backend.", 
                 "Designed new components and routines that followed the same style as the original code to ensure consistency and knowledge transferability of the codebase."
