@@ -1,6 +1,6 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with strong communication skills and thrives in unfamilar environments.",
+    "A Software Engineer / Data Scientist with strong communication skills who thrives working in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
     "Worked in a diverse number of careers and industries such as consulting, finance and government.",
   ],
@@ -28,7 +28,7 @@ export const experience = [
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: [
-            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects resulted in being extended on a project from 5 to 7 months.", 
+            "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which resulted in being extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
           ],
         format: <const> "list",

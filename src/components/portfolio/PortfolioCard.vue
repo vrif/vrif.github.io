@@ -30,6 +30,7 @@
           >
             <b-button 
               :href="link.url"
+              @click.stop.prevent="newTab"
               size="sm"
               variant="dark"
               block
@@ -50,9 +51,12 @@
 </template>
 <script lang="ts">
   import { Component, Prop, Vue } from 'vue-property-decorator'
+  import HelperMethods from '@/mixins/helper-methods'
   import { Portfolio } from '@/fixtures/portfolio'
 
-  @Component    
+  @Component({
+    mixins: [HelperMethods]
+  })    
   export default class PortfolioCard extends Vue {
     @Prop()
     private portfolioData!: Portfolio
