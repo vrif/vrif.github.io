@@ -45,7 +45,7 @@ export const experience = [
           {
             title: "Application Enhancement - Project #1",
             description: [
-                "Expanded frontend functionalities to a complex application in Vue and created new API endpoints to integrate with the Django backend.", 
+                "Expanded frontend functionalities of a complex application in Vue and created new API endpoints to integrate with the Django backend.", 
                 "Designed new components and routines that followed the same style as the original code to ensure consistency and knowledge transferability of the codebase."
               ],
             tags: ["Software Engineering"],
