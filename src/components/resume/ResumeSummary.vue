@@ -15,7 +15,7 @@
       </p>
       <p v-if="summaryDetails.credentialId"><span class="text-muted">Credential ID: {{summaryDetails.credentialId}}</span></p>
       <p v-if="summaryDetails.credentialUrl">
-        <span class="text-muted">Credential Url: </span><b-link :href="summaryDetails.credentialUrl" @click.stop.prevent="newTab">Click Here</b-link>
+        <span class="text-muted">Credential URL: </span><b-link :href="summaryDetails.credentialUrl" @click.stop.prevent="newTab">Click Here</b-link>
       </p>
       <!-- -->
 
@@ -41,7 +41,7 @@
         v-if="summaryDetails.url" 
         class="ml-4 mb-1"
       >
-        <span>Url: </span><b-link :href="summaryDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
+        <span>URL: </span><b-link :href="summaryDetails.url" @click.stop.prevent="newTab">Click Here</b-link>
       </p>
     </div>
     <div 
