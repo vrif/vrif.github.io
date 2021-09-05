@@ -34,6 +34,15 @@ export const experience = [
         format: <const> "list",
         details: [
           {
+            title: "Proof of Concept Application Upgrade - Part 2",
+            description: [
+              "An extension of the Proof of Concept Application Upgrade project.",
+              "Created the frontend form input capabilities and connected with the backend through RESTful API.",
+            ],
+            tags: ["Software Engineering"],
+            tools: "React, Redux, TypeScript, RESTful API, HTML, CSS, Bootstrap"
+          },
+          {
             title: "Application Enhancement - Project #2",
             description: [
                 "Upgraded frontend input functionalities in Vue according to client specifications.", 
