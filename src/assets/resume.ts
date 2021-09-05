@@ -34,10 +34,10 @@ export const experience = [
         format: <const> "list",
         details: [
           {
-            title: "Proof of Concept Application Upgrade - Part 2",
+            title: "Proof of Concept Application - Continuation",
             description: [
-              "An extension of the Proof of Concept Application Upgrade project.",
-              "Created the frontend form input capabilities and connected with the backend through RESTful API.",
+              "A continuation of the Proof of Concept Application Upgrade project that was previously stated.",
+              "Created the frontend form input capabilities in React and connected with the backend through RESTful API that initiates Python scripts.",
             ],
             tags: ["Software Engineering"],
             tools: "React, Redux, TypeScript, RESTful API, HTML, CSS, Bootstrap"
@@ -68,15 +68,18 @@ export const experience = [
             url: "https://bcbc.com/dashboard",
           },
           {
-            title: "Proof of Concept Application Upgrade",
-            description: ["Upgraded the frontend of a proof of concept application from JQuery to React."],
+            title: "Proof of Concept Application -  Upgrade",
+            description: [
+              "Upgraded the frontend of a proof of concept application from JQuery to React.",
+            ],
             tags: ["Software Engineering"],
             tools: "React, Flask, Python, RESTful API, HTML, CSS, Bootstrap",
           },
           {
             title: "Proof of Concept Application",
             description: [
-                "Developed a proof of concept application that displayed results generated from a model.", 
+                "Developed a proof of concept application that displayed results generated from a machine learning model.", 
+                "The results are displayed in a easy to consume grid to enable the customer deeper insights into their data.",
                 "Exceeded the expectations of the client during the demo call."
               ],
             tags: ["Software Engineering"],
@@ -84,7 +87,7 @@ export const experience = [
           },
           {
             title: "Exploratory Project",
-            description: ["Manipulated and explored data in Python and MSSQL"],
+            description: ["Manipulated and explored data in Python and MSSQL."],
             tags: ["Data Science"],
             tools: "Python, MSSQL",
           },
@@ -92,10 +95,11 @@ export const experience = [
             title: "Data Pipeline",
             description: [
                 "Managed the scripts to retrieve, clean, validate and transform data for a data pipeline.", 
-                "Downstream, the data was used to power dashboards and to generate reports."
+                "Downstream, the data was used to power dashboards and to generate reports.",
+                "Connected the data output to an Azure Blob storage."
               ],
             tags: ["Data Engineering"],
-            tools: "Python, MSSQL, *nix",
+            tools: "Python, MSSQL, Azure, *nix",
           },
 
         ]
