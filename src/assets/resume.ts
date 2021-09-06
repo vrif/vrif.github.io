@@ -49,7 +49,7 @@ export const experience = [
                 "Converted and streamlined routines in the Node/Express backend to allow for re-usability and scalability in the future."
               ],
             tags: ["Software Engineering"],
-            tools: "Vue, Node, Express, RESTful API, MSSQL HTML, CSS, Bootstrap",
+            tools: "Vue, Node, Express, RESTful API, MSSQL, HTML, CSS, Bootstrap",
           },
           {
             title: "Application Enhancement - Project #1",
@@ -79,7 +79,7 @@ export const experience = [
             title: "Proof of Concept Application",
             description: [
                 "Developed a proof of concept application that displayed results generated from a machine learning model.", 
-                "The results are displayed in a easy to consume grid to enable the customer deeper insights into their data.",
+                "The results are displayed in an easy to consume grid to enable the user deeper insights into their data.",
                 "Exceeded the expectations of the client during the demo call."
               ],
             tags: ["Software Engineering"],
