@@ -4,6 +4,13 @@
       v-for="(entrys, index) in portfolioData" :key="index"
       class="portfolio-card"
       align="left"
+      :style="{
+        opacity: `${loading ? 0 : 1 }`,
+        transform: `${loading ? 'translateY(2em)' : 'translateY(0)' }`,
+        transition: 
+          `opacity 700ms ease ${index*.15}s,
+          transform 350ms ease ${index*.15}s`
+      }"
     >
       <b-card-body class="p-0">
         <b-card-title>{{entrys.name}}</b-card-title>
@@ -61,6 +68,8 @@
     @Prop()
     private portfolioData!: Portfolio
 
+    private loading = true
+
     private badgeColor(tagName: string): string {
       switch (tagName) {
         case "Software Engineering":
@@ -70,6 +79,14 @@
         default:
           return "secondary"
       }
+    }
+
+    created(): void {
+      console.log(this.loading)
+    }
+
+    mounted(): void {
+      this.loading = false
     }
   }
 </script>
@@ -92,7 +109,6 @@
     }
     &:hover {
       box-shadow: 0 0 10px 0 grey;
-      transform: scale(1.01);
       z-index: 50;
     }
   }
