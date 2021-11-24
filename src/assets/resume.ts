@@ -48,7 +48,7 @@ export const experience = [
                 "Converted and streamlined routines in the Node/Express backend to allow for re-usability and scalability in the future."
               ],
             tags: ["Software Engineering"],
-            tools: "Vue, Node, Express, REST API, SQL Server, HTML, CSS, Bootstrap",
+            tools: "Vue, Node/Express, REST API, SQL Server, HTML, CSS, Bootstrap",
           },
           {
             title: "Application Enhancement - Project #1",
