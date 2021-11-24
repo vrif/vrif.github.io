@@ -44,7 +44,7 @@ export const experience = [
             title: "Application Enhancement - Project #2",
             description: [
                 "Upgraded frontend input functionalities in Vue according to client specifications.", 
-                "Applied bug fixes under the hood to deliver a smoother UI experience.",
+                "Applied bug fixes to the codebase for a smoother UI experience.",
                 "Converted and streamlined routines in the Node/Express backend to allow for re-usability and scalability in the future."
               ],
             tags: ["Software Engineering"],
