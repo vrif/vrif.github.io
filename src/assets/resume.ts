@@ -24,8 +24,8 @@ export const experience = [
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: [
-            "Craft full stack solutions for clients using technologies such as React/Redux and Vue/Vuex.",
-            "Implement application enhancement projects from ideation to completion.",
+            "Crafted full stack solutions for clients using technologies such as React/Redux and Vue/Vuex.",
+            "Implemented application enhancement projects from ideation to completion.",
             "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which resulted in being extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
           ],
