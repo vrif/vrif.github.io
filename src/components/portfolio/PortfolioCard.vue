@@ -82,12 +82,21 @@
     }
 
     created(): void {
+      this.loading = true
       console.log(this.loading)
     }
 
     mounted(): void {
       this.loading = false
+
+      console.log(this.loading)
+      console.log(this.$route.name)
     }
+
+    // @Watch('$route')
+    // public onChange(val: any, oldVal: any) {
+    //   console.log("changed")
+    // }
   }
 </script>
 <style lang="scss">
