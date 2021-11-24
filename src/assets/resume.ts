@@ -1,12 +1,8 @@
 export const about = [
   [
-    "A Software Engineer / Data Scientist with strong communication skills who thrives in unfamilar environments.",
+    "A Software Engineer with strong communication skills who thrives in unfamilar environments.",
     "Experienced with implementing product and application enhancements from idea to execution.",
     "Worked in a diverse number of careers and industries such as consulting, finance and government.",
-  ],
-  [
-    "A proficient user of Vue from working on multiple client engagements that involved application functionality enhancements.",
-    "Also familiar with React due to converting a proof of concept application from JQuery.",
   ]
 ]
 
@@ -15,7 +11,7 @@ export const skills = [
   "Web: HTML, CSS",
   "Front-end Framework: Vue, React",
   "Back-end Framework: Django + DRF, Node/Express, Flask",
-  "Database: MSSQL",
+  "Database: SQL Server",
   "Version Control: Git",
 ]
 
@@ -28,6 +24,8 @@ export const experience = [
         duration: "Jan 2020 - Present",
         location: "Vancouver, BC, Canada",
         description: [
+            "Craft full stack solutions for clients using technologies such as React/Redux and Vue/Vuex.",
+            "Implement application enhancement projects from ideation to completion.",
             "Improved relationships between internal groups by delivering exceptional quality of work on inter-group projects, which resulted in being extended on a project from 5 to 7 months.", 
             "Managed expectations of stakeholders by providing regular updates on project progression.",
           ],
@@ -37,19 +35,20 @@ export const experience = [
             title: "Proof of Concept Application - Continuation",
             description: [
               "A continuation of the Proof of Concept Application Upgrade project that was previously stated.",
-              "Created the frontend form input capabilities in React and connected with the backend through RESTful API that initiates Python scripts.",
+              "Created the frontend form input capabilities in React and connected with the backend through REST API that initiates Python scripts.",
             ],
             tags: ["Software Engineering"],
-            tools: "React, Redux, TypeScript, RESTful API, HTML, CSS, Bootstrap"
+            tools: "React, Redux, TypeScript, REST API, HTML, CSS, Bootstrap"
           },
           {
             title: "Application Enhancement - Project #2",
             description: [
                 "Upgraded frontend input functionalities in Vue according to client specifications.", 
+                "Applied bug fixes under the hood to deliver a smoother UI experience.",
                 "Converted and streamlined routines in the Node/Express backend to allow for re-usability and scalability in the future."
               ],
             tags: ["Software Engineering"],
-            tools: "Vue, Node, Express, RESTful API, MSSQL, HTML, CSS, Bootstrap",
+            tools: "Vue, Node, Express, REST API, SQL Server, HTML, CSS, Bootstrap",
           },
           {
             title: "Application Enhancement - Project #1",
@@ -58,7 +57,7 @@ export const experience = [
                 "Designed new components and routines that followed the same style as the original code to ensure consistency and knowledge transferability of the codebase."
               ],
             tags: ["Software Engineering"],
-            tools: "Vue, Django, RESTful API, TypeScript, HTML, CSS, Bootstrap",
+            tools: "Vue, Django, REST API, TypeScript, HTML, CSS, Bootstrap",
           },
           {
             title: "BCBC - Data Pipeline",
@@ -73,7 +72,7 @@ export const experience = [
               "Upgraded the frontend of a proof of concept application from JQuery to React.",
             ],
             tags: ["Software Engineering"],
-            tools: "React, Flask, Python, RESTful API, HTML, CSS, Bootstrap",
+            tools: "React, Flask, Python, REST API, HTML, CSS, Bootstrap",
           },
           {
             title: "Proof of Concept Application",
@@ -87,9 +86,9 @@ export const experience = [
           },
           {
             title: "Exploratory Project",
-            description: ["Manipulated and explored data in Python and MSSQL."],
+            description: ["Manipulated and explored data in Python and SQL Server."],
             tags: ["Data Science"],
-            tools: "Python, MSSQL",
+            tools: "Python, SQL Server",
           },
           {
             title: "Data Pipeline",
@@ -99,7 +98,7 @@ export const experience = [
                 "Connected the data output to an Azure Blob storage."
               ],
             tags: ["Data Engineering"],
-            tools: "Python, MSSQL, Azure, *nix",
+            tools: "Python, SQL Server, Azure, *nix",
           },
 
         ]
